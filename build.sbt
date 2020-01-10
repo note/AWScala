@@ -3,9 +3,9 @@ import xerial.sbt.Sonatype.autoImport._
 lazy val commonSettings = Seq(
   organization := "com.github.seratch",
   name := "awscala",
-  version := "0.8.3-SNAPSHOT",
-  scalaVersion := "2.12.8",
-  crossScalaVersions := Seq("2.12.8", "2.11.12", "2.10.7"),
+  version := "0.8.4-SNAPSHOT",
+  scalaVersion := "2.13.1",
+  crossScalaVersions := Seq("2.12.10", "2.13.1"),
   sbtPlugin := false,
   transitiveClassifiers in Global := Seq(Artifact.SourceClassifier),
   scalacOptions ++= Seq("-unchecked", "-deprecation", "-feature"),
